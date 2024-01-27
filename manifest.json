@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Productivity PopUp!",
+    "name": "Prod-Activity!",
     "description": "Productivity & Fitness Booster",
     "version": "1.0",
     "action": {
-      "default_popup": "timeToMove.html",
-    //   "default_icon": "cornerHeart.png"
+      "default_popup": "index.html",
+      "default_icon": "assets/default_icon2.png"
     }
   }

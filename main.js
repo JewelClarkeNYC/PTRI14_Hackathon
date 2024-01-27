@@ -1,17 +1,27 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const choice = document.createElement("div");
+    // const medVideo = document.createElement("div");
+    document.body.appendChild(choice);
+    // choice.innerText = "choose one";
+    // choice.textContent = "testing"
+});  
 // Create a function PopUp() that makes a popup window pop up on the user's browser every 45 min if extension is active
-    //PopUp() will invoke activitySelector()  
+    // check if 45 min have passed using setInterval, if yes, then PopUp
+    //PopUp() will show activitySelector prompt 
 // Create a prompt activitySelector giving user choice of stretch, hydration, extended break, or meditation 
-const activitySelector = prompt(`"Hey hard worker! What time is it?" Type: stretch, drink, extended break, or meditation`,[]);
+const activitySelector = prompt(`"Hey hard worker! What time is it?" 
+
+Type: stretch, drink, pause, or meditation`,[]);
     // if stretch selected, invokes stretchSelector()
     if(activitySelector === stretch){
-        stretcSelector();
+        stretchSelector();
     } else if(activitySelector === drink){
     // if hydration selected, 
 
-    } else if(activitySelector === extended break){
+    } else if(activitySelector === pause){
     // if extended break selected, puts extension timer on pause
 
-    } else (activitySelector === meditation){
+    } else if (activitySelector === meditation){
     // if meditation selecting, starts meditation video
 
     }
